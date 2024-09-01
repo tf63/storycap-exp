@@ -7,9 +7,6 @@ node_modules/
 .pnp
 .pnp.js
 
-# testing
-coverage/
-__screenshots__
 
 # next.js
 .next/
@@ -63,8 +60,15 @@ next-env.d.ts
 # vercel
 .vercel/
 
+# testing
+coverage/
+
 # playwright
 test-results/
 blob-report/
 playwright-report/
 playwright/.cache/
+
+# VRT
+__screenshots__
+.reg/
