@@ -18,7 +18,8 @@ const config: StorybookConfig = {
         '@storybook/addon-storysource',
         '@storybook/addon-a11y',
         '@storybook/addon-console',
-        '@whitespace/storybook-addon-html'
+        '@whitespace/storybook-addon-html',
+        'storycap'
     ],
     framework: {
         name: '@storybook/nextjs',
