@@ -5,6 +5,9 @@
         "thresholdRate": 0.05
     },
     "plugins": {
-        "reg-keygen-git-hash-plugin": {}
+        "reg-simple-keygen-plugin": {
+            "expectedKey": "hoge",
+            "actualKey": "fuga"
+        }
     }
 }
