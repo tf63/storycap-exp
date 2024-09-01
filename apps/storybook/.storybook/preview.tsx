@@ -27,7 +27,7 @@ const preview: Preview = {
         },
         screenshot: {
             fullPage: false,
-            delay: 1000,
+            delay: 3000,
             viewports: {
                 desktop: { width: 1920, height: 1080 },
                 tablet: { width: 768, height: 1024 },
