@@ -8,7 +8,7 @@
         "build": "storybook build",
         "lint": "biome lint .",
         "lint:fix": "biome lint . --write",
-        "screenshot": "storycap http://localhost:6006 --serverCmd \"pnpx serve -l 6006 storybook-static\""
+        "screenshot": "pnpm build && storycap http://localhost:6006 --serverCmd \"pnpx serve -l 6006 storybook-static\""
     },
     "dependencies": {
         "next": "14.2.6",
@@ -28,6 +28,7 @@
         "@whitespace/storybook-addon-html": "^6.1.1",
         "reg-keygen-git-hash-plugin": "^0.14.3",
         "reg-notify-github-plugin": "^0.14.4",
+        "reg-simple-keygen-plugin": "^0.14.2",
         "reg-suit": "^0.14.4",
         "storybook": "^8.2.9",
         "storycap": "^5.0.0"
